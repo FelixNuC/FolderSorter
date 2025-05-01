@@ -27,8 +27,7 @@ def ordenar_archivos(ruta, tipos):
             shutil.move(archivo_path, os.path.join(ruta, "Otros", archivo))
 
 if __name__ == "__main__":
-    view.ventana.mainloop()  # Ejecuta GUI y espera a que el usuario confirme
-
+    view.ventana.mainloop()  
     ruta = view.ruta
     tipos = view.tipos
 
